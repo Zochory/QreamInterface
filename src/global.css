@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Inter Variable";
+  src: url("/public/InterVariable.ttf");
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter-variable: "Inter Variable";
+
+  /* font sizes */
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --color-primarycolor: #007aff;
+  --background-surface-white-black: #fff;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --radius-radius-s: 12px;
+  --radius-radius-round: 999px;
+
+  /* Paddings */
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-980xl: 999px;
+}
